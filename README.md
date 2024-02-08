@@ -1,12 +1,12 @@
 # Project_Ecom_Api_CartSystem
 ### Flow:
--> Registration(Registers users through username, password, mobile)
--> LogIn(Displays "Sign-in successful" if credentials are matched)
--> Products(Admin will Add products in database for clients, if not present) 
--> Cart(User will Add or Update products, get user Cart details, and also generates a Bill_Id on checkout)
--> Bill(Gets total price and Bill_Id)
--> Payment(upon entering Bill_Id and UserId Shows "payment success" or "failure")
--> Order(gets user order detials) //under process(Non-Functional)
+* -> Registration(Registers users through username, password, mobile)
+* -> LogIn(Displays "Sign-in successful" if credentials are matched)
+* -> Products(Admin will Add products in database for clients, if not present) 
+* -> Cart(User will Add or Update products, get user Cart details, and also generates a Bill_Id on checkout)
+* -> Bill(Gets total price and Bill_Id)
+* -> Payment(upon entering Bill_Id and UserId Shows "payment success" or "failure")
+* -> Order(gets user order details) //under process(Non-Functional)
 
 ### Functional APIs
 * Register User- http://localhost:8080/api/users  //POST
